@@ -3,6 +3,11 @@
 	import Nav from '../components/Nav.svelte';
 </script>
 
-<svelte:head><title>Stocks</title></svelte:head>
+<svelte:head>
+	<title>Stocks</title>
+</svelte:head>
+
 <Nav />
-<slot />
+<div class="">
+	<slot />
+</div>
